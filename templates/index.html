@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>疫情监控</title>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/echarts.min.js"></script>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <script src="../static/js/china.js"></script>
+    <script src="../static/js/province/index.js"></script>
+</head>
+    <body>
+        <div id="title">全国疫情实时追踪</div>
+        <div id="time"></div>
+
+
+        <div id="c1">
+            <div class="stxt"></div>
+            <div class="stxt"></div>
+            <div class="stxt"></div>
+            <div class="num"></div>
+            <div class="num"></div>
+            <div class="num"></div>
+            <div class="txt">累计确诊</div>
+            <div class="txt">累计治愈</div>
+            <div class="txt">累计死亡</div>
+        </div>
+        <div id="c2">
+            <div class="stxt"></div>
+            <div class="stxt"></div>
+            <div class="stxt"></div>
+            <div class="num"></div>
+            <div class="num"></div>
+            <div class="num"></div>
+            <div class="txt">现有确诊</div>
+            <div class="txt">无症状感染者</div>
+            <div class="txt">境外输入</div>
+        </div>
+        <div id="c3"></div>
+
+{#        <div id="c4">#}
+{#            <div style="text-align:center">#}
+{#                <form method="post" id="date_search">#}
+{#                    {{ calen.csrf_token() }}#}
+{#                    {{ calen.month }}{{ calen.month.label }}#}
+{##}
+{#                    {{ calen.day }}{{ calen.day.label }}#}
+{##}
+{#                    {{ calen.submit }}<br/>#}
+{##}
+{##}
+{#                </form>#}
+{#            </div>#}
+{#        </div>#}
+
+
+        <div id="l1"></div>
+        <div id="l2"></div>
+
+        <div id="r1"></div>
+        <div id="r2"></div>
+
+
+        <script src="../static/js/c3.js"></script>
+        <script src="../static/js/l1.js"></script>
+        <script src="../static/js/l2.js"></script>
+        <script src="../static/js/r1.js"></script>
+        <script src="../static/js/r2.js"></script>
+
+
+        <script src="../static/js/update.js"></script>
+
+    </body>
+</html>

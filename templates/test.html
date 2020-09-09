@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts 实例</title>
+    <!-- 引入 echarts.js -->
+    <script src="../static/js/echarts.min.js"></script>
+    <script src="../static/js/province/index.js"></script>
+</head>
+<body>
+
+            <form method="post" href="/search">
+                {{ calendar.csrf_token }}
+                {{ calendar.year.label }} {{ calendar.year }}
+                {% for err in calendar.year.errors %}
+                {{ err }}
+                {% endfor %}
+
+                {{ calendar.month.label }} {{ calendar.month }}
+                {% for err in calendar.month.errors %}
+                {{ err }}
+                {% endfor %}
+
+                {{ calendar.day.label }} {{ calendar.day }}
+                {% for err in calendar.day.errors %}
+                {{ err }}
+                {% endfor %}
+                {{ calendar.submit }}
+
+            </form>
+
+</body>
+</html>

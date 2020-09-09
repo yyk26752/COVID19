@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background: #10aeb5;
+}
+
+#title {
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    top: 0%;
+    left: 30%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#time {
+    position: absolute;
+    height: 10%;
+    top: 5%;
+    right: 2%;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#c1 {
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    top: 10%;
+    left: 30%;
+    background: #F3F6F8;
+}
+
+#c2 {
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    top: 25%;
+    left: 30%;
+    background: #F3F6F8;
+}
+
+.num {
+    width: 33%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #e83132;
+}
+
+
+.stxt {
+    width: 33%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #7c7c7c;
+}
+
+
+.txt {
+    width: 33%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+#c3 {
+    position: absolute;
+    width: 40%;
+    height: 57%;
+    top: 40%;
+    left: 30%;
+    background: #F3F6F8;
+}
+
+#c4 {
+    position: absolute;
+    width: 40%;
+    height: 3%;
+    bottom: 0%;
+    left: 30%;
+}
+
+#l1 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    left: 0%;
+}
+
+#l2 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    left: 0%;
+}
+
+#r1 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    right: 0%;
+}
+
+#r2 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    right: 0%;
+}
